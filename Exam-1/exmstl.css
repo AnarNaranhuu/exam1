@@ -1,0 +1,126 @@
+.main{
+    display: flex;
+    flex: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+width: 300px;
+padding-top: 120px;
+height: auto;
+display: flex;
+flex-direction: column ;
+}
+.logo{
+    height: auto;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.bt{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.lgn{
+    width: 260px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 260px;
+    height: 30px;
+    background-color: #c2c2c2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 5px;
+    color: #555555;
+}
+.yellow_box{
+    margin-left: auto;
+    margin-right: 0px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #fd7401;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2{
+color: #555555;
+margin-bottom: 3px;
+}
+.forgot{
+    color: #1e2772;
+    text-align: right;
+    text-decoration: underline;
+    text-size-adjust: ;
+}
+.ln{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fd7401;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.sn{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fd7401;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid #fd7401;
+}
+.background{
+    width: 100%;
+    height: auto;
+    background-color: #c2c2c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    height: 80%;
+}
+.line:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #555555;}
+.line{
+    position: relative;
+    margin: 15px auto;
+    text-align: center;
+    max-width: 260px;
+}
+.line:after{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    background: #555555;
+    right: 0;
+}
